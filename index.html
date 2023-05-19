@@ -10,8 +10,9 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">JEYLANI</a>
-        <nav class="navigation">
+        
+        <i id="logo" class="fa-solid fa-j"></i>
+            <nav class="navigation">
             <a href="#services">services</a>
             <a href="file:///C:/Users/Jeylani/Documents/GitHub/Jeyproject/CV.html">CV</a>
             <a href="#projects">projects</a>
@@ -72,42 +73,42 @@
     <section class="Projects" id="projects">
         <h2 class="title">Projects</h2>
         <div class="content">
-            <div class="project-card">
-                <div class="project-image">
-                    <img src="./Gudiga isboortiska.png" alt="this is an image">
+            <div class="project-card" id="isboortis-el">
+                <div class="project-image" onclick="showPicture()">
+                    <img  src="./Gudiga isboortiska.png" alt="this is an image">
                 </div> 
                 <div class="project-info">
                     <p class="project-category"> a design for a student association to form a team</p>
                 </div>
             </div>
 
-            <div class="project-card">
+            <div class="project-card" id="ext-el">
                 <div class="project-image">
-                    <img src="drawing-4png.png" alt="this is an image">
+                    <img src="icon.png" alt="this is an image">
                 </div> 
                 <div class="project-info">
-                    <p class="project-category"> a design for a student association to motivate them to study hard</p>
+                    <p class="project-category"> this is an extention that saves tabs in your browser </p>
                 </div>
             </div>
 
            
-            <div class="project-card">
+            <div class="project-card "  id="Aseb-el">
                 <div class="project-image">
                     <img src="MY NEW LOGO.png" alt="this is an image">
                 </div> 
                 <div class="project-info">
-                    <p class="project-category"> one of the logos that i have been designed</p>
+                    <p class="project-category" > one of the logos that i have been designed</p>
                 </div>
             </div>
         </div>
-
     </section>
+
 
     <section class="cards contact" id="contact">
         <h2 class="title">Let's start working</h2>
 
         <div class="content">
-            <div class="card">
+            <div class="card" id="Phone-el">
             <div class="icon">
                 <i class="fa-solid fa-phone"></i> </i>            </div>
             <div class="info">
@@ -116,12 +117,12 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" id="email-el">
             <div class="icon">
                 <i class="fa-solid fa-envelope"></i>        </div>
             <div class="info">
-                <h3>Email</h3>
-                <p>abdallamuhammed07@gmail.com</p>
+                <h3 >Email</h3>
+                <p >abdallamuhammed07@gmail.com</p>
             </div>
         </div>
     </section>
@@ -135,5 +136,6 @@
         </div>
     </footer>
 
+<script src="index.js"></script>
 </body>
 </html>

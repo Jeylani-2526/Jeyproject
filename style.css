@@ -18,12 +18,12 @@
     padding: 10px 200px;
     
   }
-  .logo{
+  #logo{
     text-decoration: none;
-    color: black;
+    color:rgb(129, 129, 32);
     text-transform: uppercase;
     font-weight: 700;
-    font: size 1.8em;
+    font-size:7em;    
   }
   .navigation a{
     text-decoration: none;
