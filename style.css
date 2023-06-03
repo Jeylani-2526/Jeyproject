@@ -6,7 +6,15 @@
     padding:0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
   }
+  ::-webkit-scrollbar {
+   width: 10px;
+ }
+  ::-webkit-scrollbar-thumb {
+   background: #818120;
+   border-radius: 10px;
+ }
   header{
     background-color: aliceblue;
     width: 100%;
@@ -20,7 +28,7 @@
   }
   #logo{
     text-decoration: none;
-    color:rgb(129, 129, 32);
+    color:#818120;
     text-transform: uppercase;
     font-weight: 700;
     font-size:7em;    
@@ -36,6 +44,8 @@
  .navigation a:hover{
     color: rgb(225, 170, 5);
  }
+
+
  section{
     padding: 100px 200px ;
     text-align: right;
@@ -96,6 +106,7 @@
     padding-right: 10px;
     padding-left: 10px;
  }
+
 .title{
     display: flex;
     justify-content: center;
