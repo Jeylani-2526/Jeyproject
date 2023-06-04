@@ -1,0 +1,17 @@
+#countdown{
+    color: red;
+    padding: 10px;
+   
+}
+/* #cards{
+    display: none;
+} */
+
+ #loader{
+position: fixed;
+background-color: black;
+
+ }
+ img{
+  max-width: 100%;
+ }
